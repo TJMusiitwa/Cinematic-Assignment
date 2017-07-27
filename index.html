@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Document metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/bulma.css">
+	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.min.css">
+	 <script src="JS/bulma.js"></script>
+	
+    <title>Cinematic Home</title>
+  </head>
+  
+  <!--Body-->
+  <body>
+    <!-- Navigation Bar -->
+ <nav class="navbar ">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="http://bulma.io/images/bulma-logo.png" alt="Cinematic: An experience you will not believe" width="112" height="28">
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+      <span class="icon" style="color: #333;">
+        <i class="fa fa-github"></i>
+      </span>
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+      <span class="icon" style="color: #55acee;">
+        <i class="fa fa-twitter"></i>
+      </span>
+    </a>
+
+    <div class="navbar-burger burger" data-target="navMenuExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navMenuExample" class="navbar-menu">
+    <div class="navbar-start">
+	<div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link is-active" href="index.html">
+        Home
+      </a>
+	  <div class="navbar-dropdown ">
+          <a class="navbar-item " href="#sectionNS">
+            Now Showing
+          </a>
+          <a class="navbar-item " href="#sectionCS">
+            Coming Soon
+          </a>
+		  </div>
+		  </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link  is-active" href="Movies.html">
+          Movies
+        </a>
+        <div class="navbar-dropdown ">
+          <a class="navbar-item " href="/documentation/overview/start/">
+            Showtimes
+          </a>
+          <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
+            Ticketing
+          </a>
+          <a class="navbar-item " href="http://bulma.io/documentation/grid/columns/">
+            Movie Guide
+          </a>
+        </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link " href="About.html">
+          About
+        </a>
+        <div id="blogDropdown" class="navbar-dropdown " data-style="width: 18rem;">
+          
+            <a class="navbar-item" href="#">
+              <div class="navbar-content">
+                <p>
+                  <small class="has-text-info">10 Mar 2017</small>
+                </p>
+                <p>Spiderman launches with a bang</p>
+              </div>
+            </a>
+            <a class="navbar-item" href="#">
+              <div class="navbar-content">
+                <p>
+                  <small class="has-text-info">09 Aug 2017</small>
+                </p>
+                <p>Bring your family, friends, loved ones. Get a discounted offer</p>
+              </div>
+            </a>
+
+        </div>
+      </div>
+		<a class="navbar-item " href="Contact Us.html">
+          Contact Us
+      </a>
+        
+     
+    </div>
+
+    <div class="navbar-end">
+     <span class="icon">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </span>
+		<span class="icon">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </span>
+		<span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info" href="Login.html">
+              <span>Login</span>
+            </a>
+          </p>
+        </div>
+      </div>
+	   <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info" href="Sign Up.html">
+              <span>Sign Up</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!--Carousel-->
+<div class='wrap'>
+  <ul class='carousel is-set'>
+    <li class='carousel-seat'>
+      <img src="img/bg.jpg" alt="...">
+      <div class="carousel-caption">
+    </li>
+    <li class='carousel-seat'>
+      <img src="img/avg3.jpg" alt="...">
+      <div class="carousel-caption">
+    </li>
+    <li class='carousel-seat'>
+      <img src="img/avengers2.jpg" alt="...">
+      <div class="carousel-caption">
+    </li>
+    <li class='carousel-seat'>
+      <img src="img/avg3.jpg" alt="...">
+      <div class="carousel-caption">
+    </li>
+    <li class='carousel-seat'>
+      <h2>5</h2>
+    </li>
+    <li class='carousel-seat is-ref'>
+      <h2>6</h2>
+    </li>
+  </ul>
+</div>
+<div class='controls'>
+  <button class='toggle'>Prev</button>
+  <button class='toggle' data-toggle='next'>Next</button>
+</div>
+
+
+
+<!--Now Showing movies Section-->
+  <section class="section is-medium">
+    <div class="container">
+      <h1 class="title">Now Showing</h1>
+      <h2 class="subtitle">
+        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+      </h2>
+	  <div class="columns is-desktop is-gapless">
+  <div class="column">First column</div>
+  <div class="column">Second column</div>
+  <div class="column">Third column</div>
+  <div class="column">Fourth column</div>
+</div>
+    </div>
+  </section>
+  <!--Now Showing movies Section-->
+    <section class="section is-medium">
+    <div class="container">
+      <h1 class="title">Coming Soon</h1>
+      <h2 class="subtitle">
+        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+      </h2>
+    </div>
+  </section>
+  
+  </body>
+  <!--Footer-->
+  <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Created</strong> by <a href="index.html">TJ & Nurain</a>. Oh what
+        <a href=""> fun </a>you will have. We don't say it, we <a href=""> guarantee </a>it.
+      </p>
+      <p>
+	  <p>
+        &copy; 2017 <strong>Code256</strong>, Inc.  · <a href="#">Privacy  · </a><a href="#">Terms  ·</a><a href="#">Career  ·</a>
+		<a href="#">Site map</a>
+      </p>
+        <a class="icon"><i class="fa fa-heart"></i></i>
+		</a>
+      </p>
+    </div>
+  </div>
+</footer>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Document metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/bulma.css">
+	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.min.css">
+	 <script src="JS/bulma.js"></script>
+	
+    <title>Cinematic Home</title>
+  </head>
+  
+  <!--Body-->
+  <body>
+    <!-- Navigation Bar -->
+ <nav class="navbar ">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="http://bulma.io/images/bulma-logo.png" alt="Cinematic: An experience you will not believe" width="112" height="28">
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+      <span class="icon" style="color: #333;">
+        <i class="fa fa-github"></i>
+      </span>
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+      <span class="icon" style="color: #55acee;">
+        <i class="fa fa-twitter"></i>
+      </span>
+    </a>
+
+    <div class="navbar-burger burger" data-target="navMenuExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navMenuExample" class="navbar-menu">
+    <div class="navbar-start">
+	<div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link is-active" href="index.html">
+        Home
+      </a>
+	  <div class="navbar-dropdown ">
+          <a class="navbar-item " href="#sectionNS">
+            Now Showing
+          </a>
+          <a class="navbar-item " href="#sectionCS">
+            Coming Soon
+          </a>
+		  </div>
+		  </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link  is-active" href="Movies.html">
+          Movies
+        </a>
+        <div class="navbar-dropdown ">
+          <a class="navbar-item " href="/documentation/overview/start/">
+            Showtimes
+          </a>
+          <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
+            Ticketing
+          </a>
+          <a class="navbar-item " href="http://bulma.io/documentation/grid/columns/">
+            Movie Guide
+          </a>
+        </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link " href="About.html">
+          About
+        </a>
+        <div id="blogDropdown" class="navbar-dropdown " data-style="width: 18rem;">
+          
+            <a class="navbar-item" href="/2017/03/10/new-field-element/">
+              <div class="navbar-content">
+                <p>
+                  <small class="has-text-info">10 Mar 2017</small>
+                </p>
+                <p>New field element (for better controls)</p>
+              </div>
+            </a>
+            <a class="navbar-item" href="/2016/02/09/blog-launched-new-responsive-columns-new-helpers/">
+              <div class="navbar-content">
+                <p>
+                  <small class="has-text-info">09 Feb 2016</small>
+                </p>
+                <p>Blog launched, new responsive columns, new helpers</p>
+              </div>
+            </a>
+
+        </div>
+      </div>
+		<a class="navbar-item " href="Contact Us.html">
+          Contact Us
+      </a>
+        
+     
+    </div>
+
+    <div class="navbar-end">
+     <span class="icon">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </span>
+		<span class="icon">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </span>
+		<span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info" href="Login.html">
+              <span>Login</span>
+            </a>
+          </p>
+        </div>
+      </div>
+	   <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info" href="Sign Up.html">
+              <span>Sign Up</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--Contact Form-->
+<section class="hero is-info is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Reach out to us
+      </h1>
+      <h2 class="subtitle">
+        For all your queries,feedback & help...
+      </h2>
+    </div>
+  </div>
+</section>
+<!--Submit Form-->
+
+<div class="container">
+<div class="field">
+  <label class="label">Name</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Text input" required>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Username</label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input" type="text" placeholder="Username" required>
+    <span class="icon is-small is-left">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fa fa-check"></i>
+    </span>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Email</label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input" type="text" placeholder="Email input" required="true">
+    <span class="icon is-small is-left">
+      <i class="fa fa-envelope"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fa fa-warning"></i>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="field">
+  <label class="label">Message</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="Textarea"></textarea>
+  </div>
+</div>
+
+<div class="field">
+  <div class="control">
+    <label class="checkbox">
+      <input type="checkbox">
+      I agree to the <a href="#">terms and conditions</a>
+    </label>
+  </div>
+</div>
+
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-primary">Submit</button>
+  </div>
+  <div class="control">
+    <button class="button is-link">Cancel</button>
+  </div>
+</div>
+</div>
+
+</body>
+  <!--Footer-->
+  <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Created</strong> by <a href="index.html">TJ & Nurain</a>. Oh what
+        <a href=""> fun </a>you will have. We don't say it, we <a href=""> guarantee </a>it.
+      </p>
+      <p>
+	  <p>
+        &copy; 2017 <strong>Code256</strong>, Inc.  · <a href="#">Privacy  · </a><a href="#">Terms</a>
+      </p>
+        <a class="icon"><i class="fa fa-heart"></i></i>
+		</a>
+      </p>
+    </div>
+  </div>
+</footer>
+</html>
